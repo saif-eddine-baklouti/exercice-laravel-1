@@ -44,7 +44,7 @@
         <div class="row gx-0 align-items-center d-none d-lg-flex">
             <div class="col-lg-6 px-5 text-start">
                 <ol class="breadcrumb mb-0">
-                    <li class="breadcrumb-item"><a class="small text-light" href="/">Accueil</a></li>
+                    <li class="breadcrumb-item"><a class="small text-light" href="accueil">Accueil</a></li>
                     <li class="breadcrumb-item"><a class="small text-light" href="#">Career</a></li>
                     <li class="breadcrumb-item"><a class="small text-light" href="#">Terms</a></li>
                     <li class="breadcrumb-item"><a class="small text-light" href="#">Privacy</a></li>
@@ -74,18 +74,18 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav mx-auto p-4 p-lg-0">
-                <a href="/" class="nav-item nav-link">Accueil</a>
-                <a href="about.html" class="nav-item nav-link">About</a>
-                <a href="service.html" class="nav-item nav-link">Services</a>
-                <a href="product.html" class="nav-item nav-link">Products</a>
+                <a href="accueil" class="nav-item nav-link">Accueil</a>
+                <a href="about" class="nav-item nav-link">About</a>
+                <a href="service" class="nav-item nav-link">Services</a>
+                <a href="product" class="nav-item nav-link">Products</a>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Pages</a>
                     <div class="dropdown-menu m-0">
-                        <a href="team.html" class="dropdown-item">Our Team</a>
-                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                        <a href="team" class="dropdown-item">Our Team</a>
+                        <a href="testimonial" class="dropdown-item">Testimonial</a>
                     </div>
                 </div>
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
+                <a href="contact" class="nav-item nav-link">Contact</a>
             </div>
             <div class=" d-none d-lg-flex">
                 <div class="flex-shrink-0 btn-lg-square border border-light rounded-circle">

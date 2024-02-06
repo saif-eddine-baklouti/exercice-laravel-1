@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 
 class ConfectioneryShopController extends Controller
 {
+    //
     public function index(){
         return view('accueil');
     }
@@ -28,4 +29,7 @@ class ConfectioneryShopController extends Controller
         return view('testimonial');
     }
 
+    public function contactForm(Request $request){
+            return view('contact', ['data' => $request]);
+    }
 }

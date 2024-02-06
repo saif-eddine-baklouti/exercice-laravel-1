@@ -44,7 +44,7 @@
         <div class="row gx-0 align-items-center d-none d-lg-flex">
             <div class="col-lg-6 px-5 text-start">
                 <ol class="breadcrumb mb-0">
-                    <li class="breadcrumb-item"><a class="small text-light" href="/">Accueil</a></li>
+                    <li class="breadcrumb-item"><a class="small text-light" href="accueil">Accueil</a></li>
                     <li class="breadcrumb-item"><a class="small text-light" href="#">Career</a></li>
                     <li class="breadcrumb-item"><a class="small text-light" href="#">Terms</a></li>
                     <li class="breadcrumb-item"><a class="small text-light" href="#">Privacy</a></li>
@@ -74,7 +74,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav mx-auto p-4 p-lg-0">
-                <a href="/" class="nav-item nav-link active">Accueil</a>
+                <a href="accueil" class="nav-item nav-link active">Accueil</a>
                 <a href="about" class="nav-item nav-link">About</a>
                 <a href="service" class="nav-item nav-link">Services</a>
                 <a href="product" class="nav-item nav-link">Products</a>

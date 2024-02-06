@@ -27,7 +27,15 @@
             <div class="row g-0 justify-content-center">
                 <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.1s">
                     <p class="text-center mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
-                    <form>
+
+                    @isset($data)
+                    <p> Nous sommes ravis de recevoir votre message : "{{ $data->message }}" </p>
+                    <h3>Votre message a été saisi avec succès!</h3>
+
+                    @else
+
+                        <form method="post">
+                    @csrf
                         <div class="row g-3">
                             <div class="col-md-6">
                                 <div class="form-floating">
@@ -37,7 +45,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="Your Email">
                                     <label for="email">Your Email</label>
                                 </div>
                             </div>
@@ -49,7 +57,7 @@
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 200px"></textarea>
+                                    <textarea name="message" class="form-control" placeholder="Leave a message here" id="message" style="height: 200px"></textarea>
                                     <label for="message">Message</label>
                                 </div>
                             </div>
@@ -58,6 +66,7 @@
                             </div>
                         </div>
                     </form>
+                    @endisset
                 </div>
             </div>
         </div>

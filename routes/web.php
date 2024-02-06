@@ -19,12 +19,13 @@ use App\Http\Controllers\ConfectioneryShopController;
 // });
 
 
-Route::get('/',[ConfectioneryShopController::class, 'index']);
+Route::get('/accueil',[ConfectioneryShopController::class, 'index']);
 Route::get('/about',[ConfectioneryShopController::class, 'about']);
 Route::get('/contact',[ConfectioneryShopController::class, 'contact']);
 Route::get('/product',[ConfectioneryShopController::class, 'product']);
 Route::get('/service',[ConfectioneryShopController::class, 'service']);
 Route::get('/team',[ConfectioneryShopController::class, 'team']);
 Route::get('/testimonial',[ConfectioneryShopController::class, 'testimonial']);
+Route::post('/contact',[ConfectioneryShopController::class, 'contactForm']);
 
 
